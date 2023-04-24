@@ -18,6 +18,9 @@ public class Main {
             System.out.println("сумма = " + result);
 
             switch (result) {
+                case 0:
+                    System.out.println("Поздравляю, сумма чисел равна нулю");
+                    break;
                 case 10:
                     System.out.println("Поздравляю, сумма чисел равна десяти");
                     break;
@@ -28,7 +31,7 @@ public class Main {
                     System.out.println("Поздравляю, сумма чисел равна тысячи");
                     break;
                 default:
-                    System.out.println("К сожелению сумма чисел не равна: 10, 100, 1000");
+                    System.out.println("К сожелению сумма чисел не равна: 0, 10, 100, 1000");
             }
         }
     }
