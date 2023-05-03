@@ -20,7 +20,7 @@ public class Main {
             switch (result) {
                 case 0 -> System.out.println("Поздравляю, сумма чисел равна нулю");
                 case 10 -> System.out.println("Поздравляю, сумма чисел равна десяти");
-                case 100 -> System.out.println("Поздравляю, сумма чисел равная стам");
+                case 100 -> System.out.println("Поздравляю, сумма чисел равна сто");
                 case 1000 -> System.out.println("Поздравляю, сумма чисел равна тысячи");
                 default -> System.out.println("К сожелению сумма чисел не равна: 0, 10, 100, 1000");
             }
