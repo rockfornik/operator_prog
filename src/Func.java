@@ -8,8 +8,12 @@ public class Func {
         a = one.nextInt();
         System.out.print("Введите положительную степень: ");
         b = one.nextInt();
+        if (b < 0) {
+            System.out.println("Вы ввели отрицательное значение");
+        } else {
         int temp = func (a, b);
         System.out.print(temp);
+        }
     }
 
     public static int func (int a, int b) {
