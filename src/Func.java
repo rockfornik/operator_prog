@@ -12,7 +12,10 @@ public class Func {
             System.out.println("Вы ввели отрицательное значение");
         } else {
         int temp = func (a, b);
-        System.out.print(temp);
+        if (temp != 0)
+            System.out.print(temp);
+        else
+            System.out.println("Слишком большое число");
         }
     }
 
