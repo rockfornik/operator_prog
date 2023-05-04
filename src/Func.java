@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+//Функция func
 public class Func {
     public static void main(String[] args) {
         Scanner one = new Scanner(System.in);
