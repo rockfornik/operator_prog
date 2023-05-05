@@ -11,7 +11,7 @@ public class Func {
         if (b < 0) {
             System.out.println("Вы ввели отрицательное значение");
         } else {
-        int temp = func (a, b);
+        long temp = func (a, b);
         if (temp != 0)
             System.out.print(temp);
         else
@@ -19,8 +19,8 @@ public class Func {
         }
     }
 
-    public static int func (int a, int b) {
-        int r = 1;
+    public static long func (int a, int b) {
+        long r = 1;
         //возведение в степень
         for (int i = 0; i < b; i++)
             r *= a;
