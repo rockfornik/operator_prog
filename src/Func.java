@@ -6,14 +6,14 @@ public class Func {
         int a, b;
         System.out.print("Введите число: ");
         a = one.nextInt();
-        System.out.print("Введите положительную степень: ");
+        System.out.print("Введите степень: ");
         b = one.nextInt();
         if (b < 0) {
             System.out.println("Вы ввели отрицательное значение");
         } else {
         long temp = func (a, b);
         if (temp != 0)
-            System.out.print(temp);
+            System.out.print(a + "^" + b + " = " + temp);
         else
             System.out.println("Слишком большое число");
         }
