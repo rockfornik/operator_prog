@@ -7,6 +7,7 @@ public class Person {
         System.out.println("My name is " + myName);
     }
 
+    public String name = "No name";
     public void say(String name) {
         System.out.println("Hello, " + name);
     }
@@ -23,4 +24,5 @@ public class Person {
         height = h;
         age = ag;
     }
+    public Person (){}
 }
